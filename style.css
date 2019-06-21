@@ -1,0 +1,129 @@
+.container {
+  text-align: left;
+}
+
+.header {
+  background-color: #F9F113;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.sidebar {
+  vertical-align: top;
+  display: inline-block;
+  border-radius: 8px;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav select {
+  display: none;
+}
+
+.sidebar h1 {
+  font-size: medium;
+}
+
+.sidebar ul, p {
+  font-size: 90%;
+  padding-left: 5px;
+  line-height: 1;
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+
+.item {
+  background-color: #F48727;
+  width: 15%;
+}
+
+.kind {
+  background-color: #2544DF;
+  color: white;
+  width: 27%;
+}
+
+.copy {
+  background-color: #ECC0EF;
+  border-radius: 8px;
+  text-align: left;
+  margin-top: 5px;
+  clear: both;
+}
+
+.copy p {
+  margin: 5px;
+}
+
+@media only screen and (max-width: 945px) {
+
+  .container {
+    text-align: left;
+  }
+
+  body {
+    background-color: red;
+  }
+
+  .kind {
+    width: 40%;
+  }
+
+  .one-example, .two-example {
+    display: inline-block;
+    float: left;
+  }
+
+  .three-examples {
+    clear: both;
+    display: block;
+    width: auto;
+    float: none;
+    display: block;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+
+  body {
+    background-color: #1CD01C;
+  }
+
+  .sidebar {
+    width: 99%;
+  }
+
+  .one-example, .two-example, .three-examples{
+    display: block;
+    float: left;
+}
+
+  nav li  {
+    display: inline;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  .header h2 {
+    display: none;
+  }
+
+  nav ul {
+   display: none;
+  }
+
+  nav select {
+   display: inline-block;
+  }
+}
